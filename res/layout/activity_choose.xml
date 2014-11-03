@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_menu"
+    android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/choose_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/startbutton3" />
+
+        <ImageButton
+            android:id="@+id/choose_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/choose_about"
+            android:layout_alignLeft="@+id/choose_about"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/startbutton2" />
+
+        <ImageButton
+            android:id="@+id/choose_begin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/choose_set"
+            android:layout_alignLeft="@+id/choose_set"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/startbutton1" />
+
+        <ImageButton
+            android:id="@+id/choose_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/choose_about"
+            android:layout_below="@+id/choose_about"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/startbutton4" />
+
+</RelativeLayout>
